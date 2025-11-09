@@ -4,6 +4,7 @@ module.exports = withNativeFederation({
 
   shared: {
     ...shareAll({ singleton: true, strictVersion: true, requiredVersion: 'auto' }),
+    'shared-lib': { singleton: true, strictVersion: true, requiredVersion: 'auto' },
   },
 
   skip: [

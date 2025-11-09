@@ -11,6 +11,9 @@
     "skipLibCheck": true,
     "isolatedModules": true,
     "experimentalDecorators": true,
+    "paths": {
+     
+    },
     "importHelpers": true,
     "target": "ES2022",
     "module": "preserve"
@@ -41,6 +44,12 @@
     },
     {
       "path": "./projects/invoice/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/shared-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/shared-lib/tsconfig.spec.json"
     }
   ]
 }
